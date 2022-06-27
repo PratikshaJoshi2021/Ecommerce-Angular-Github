@@ -1,5 +1,6 @@
 export class Product{
-    id:number=0;
+    Id:number=0;
     productName:string='';
-    productDescription:string=''
+    productDesc:string='';
+    productImage:string='';
 }
