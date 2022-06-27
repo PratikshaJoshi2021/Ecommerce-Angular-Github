@@ -11,6 +11,9 @@ import { AuthService } from './services/auth.service';
 import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AccountComponent } from './account/account.component';
+import { MasterComponent } from './master/master.component';
+import { RoutingComponent } from './routing/routing.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { AccountComponent } from './account/account.component';
     RegisterComponent,
     HomeComponent,
     DashboardComponent,
-    AccountComponent
+    AccountComponent,
+    MasterComponent,
+    RoutingComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
